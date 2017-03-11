@@ -34,6 +34,12 @@
       font-size: 31px;
       width: 100%;
       text-decoration: none;
+      @include mobile {
+          font-size: 15px;
+          line-height: 50px;
+          letter-spacing: 0.2em;
+          vertical-align: middle;
+      }
   }
   .social {
       position: absolute;

@@ -154,7 +154,8 @@ h5 {
   padding: 3px 10px;
   width: 120px;
   color: #000;
-  font-weight: normal; }
+  font-weight: normal;
+  pointer-events: visible; }
 
 header {
   font-size: 0;
@@ -545,6 +546,12 @@ header {
     font-size: 31px;
     width: 100%;
     text-decoration: none; }
+    @media (max-width: 768px) {
+      .footer a {
+        font-size: 15px;
+        line-height: 50px;
+        letter-spacing: 0.2em;
+        vertical-align: middle; } }
   .footer .social {
     position: absolute;
     width: 30px;
