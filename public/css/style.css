@@ -110,7 +110,7 @@ html, body {
     vertical-align: top;
     padding: 0 10px; }
 
-.four-container {
+#section-content .four-container {
   font-size: 0;
   width: 100%;
   box-sizing: border-box;
@@ -118,22 +118,22 @@ html, body {
   padding-top: 30px;
   padding-bottom: 20px;
   pointer-events: visible; }
-  .four-container > div {
+  #section-content .four-container > div {
     display: inline-block;
     width: 25% !important;
     box-sizing: border-box;
     vertical-align: top;
     padding: 0 20px; }
-  .four-container .img {
+    #section-content .four-container > div p {
+      text-align: center;
+      font-weight: normal;
+      font-size: 12px !important;
+      letter-spacing: 0.05em !important;
+      margin-top: 0px !important; }
+  #section-content .four-container .img {
     width: 100%; }
-    .four-container .img img {
+    #section-content .four-container .img img {
       width: 100%; }
-  .four-container p {
-    text-align: center;
-    font-weight: normal;
-    font-size: 12px !important;
-    letter-spacing: 0.1em;
-    margin-top: 0px; }
 
 h5 {
   margin-top: 10px;
