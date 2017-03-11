@@ -199,6 +199,7 @@ header {
   header nav {
     background: #fff;
     font-size: 12px;
+    font-size: 0;
     width: 100%;
     padding-left: 70%;
     margin-left: -70%;
@@ -217,8 +218,7 @@ header {
       overflow: hidden;
       display: inline-block;
       width: 100%;
-      min-width: 108px;
-      padding: 0 0 0 54px;
+      padding: 0 0 0 21px;
       margin-bottom: 9px;
       font-size: 13px;
       position: relative;
@@ -247,7 +247,7 @@ header {
         width: 1px;
         height: 0;
         border-bottom: 16px solid #000;
-        left: 43px;
+        left: 10px;
         top: 0;
         transform: rotate(-25deg); }
         @media (max-width: 768px) {
@@ -274,11 +274,11 @@ header {
           width: 130px; } }
     .header-space.active header nav {
       width: 100%;
-      padding-left: 300px;
+      padding-left: 320px;
       margin-left: -300px; }
       @media (max-width: 768px) {
         .header-space.active header nav {
-          padding-left: 130px;
+          padding-left: 150px;
           margin-left: -130px; } }
       .header-space.active header nav #nav2, .header-space.active header nav #nav3, .header-space.active header nav #nav4, .header-space.active header nav #nav5, .header-space.active header nav #nav6 {
         -webkit-animation: navAnimation 1s normal forwards;
@@ -289,7 +289,7 @@ header {
         -webkit-transition: width 0 0.5s;
         -moz-transition: width 0 0.5s;
         transition: width 0 0.5s;
-        width: 120px; }
+        width: auto; }
         @media (max-width: 768px) {
           .header-space.active header nav #nav1 {
             width: 80px; } }
@@ -905,7 +905,7 @@ header {
       padding-bottom: 30px; }
   .section.section-f {
     background-image: url("../img/bg6.jpg");
-    z-index: 4;
+    z-index: 6;
     overflow: hidden; }
 
 .fixed-container {
