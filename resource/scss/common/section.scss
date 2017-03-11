@@ -1,0 +1,48 @@
+
+.section {
+  height: 100%;
+  background: #ccc url($img);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    pointer-events: none;
+  &.section-a {
+      background-image: url($bg-a);
+      z-index: 9;
+  }
+  &.section-b {
+      background-image: url($bg-b);
+      z-index: 8;
+      overflow: hidden;
+  }
+  &.section-c {
+      background-image: url($bg-c);
+      z-index: 7;
+      overflow: hidden;
+  }
+  &.section-d {
+      background-image: url($bg-d);
+      z-index: 6;
+      overflow: hidden;
+  }
+  &.section-e {
+      pointer-events: visible;
+      background-image: url($bg-e);
+      z-index: 5;
+      overflow: hidden;
+      #section-content {
+          padding-bottom: 30px;
+      }
+  }
+  &.section-f {
+      background-image: url($bg-f);
+      z-index: 4;
+      overflow: hidden;
+  }
+}

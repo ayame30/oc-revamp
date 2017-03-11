@@ -1,0 +1,15 @@
+$img: '../img/bg1.jpg';
+$bg-a: '../img/bg1.jpg';
+$bg-b: '../img/bg2.jpg';
+$bg-c: '../img/bg3.jpg';
+$bg-d: '../img/bg4.jpg';
+$bg-e: '../img/bg5.jpg';
+$bg-f: '../img/bg6.jpg';
+$chi-font: 'source-han-sans-traditional';
+$eng-font: 'Open Sans';
+
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
